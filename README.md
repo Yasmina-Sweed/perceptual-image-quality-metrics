@@ -25,3 +25,6 @@ pip install torch torchvision pyiqa
 pip install transformers==4.41.0
 
 ⚠️ If you face dependency issues with pyiqa, reinstall it without dependencies:
+
+pip uninstall pyiqa
+pip install pyiqa --no-deps
